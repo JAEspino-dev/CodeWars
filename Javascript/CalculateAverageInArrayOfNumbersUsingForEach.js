@@ -3,8 +3,8 @@ function findAverage(array) {
   let total = 0
   let numberOfElementsInArray = array.length
   if(numberOfElementsInArray === 0){
-    return 0
-  } else {
+    return 0 // this is what problem said to do
+  } else { // if array not empty, then find the average
   array.forEach(numberInArray => {
     total += numberInArray
   }) 
