@@ -1,0 +1,8 @@
+function hero(bullets, dragons){
+//Get Coding!
+  if (bullets === dragons * 2 || bullets > dragons * 2) { // check if bullets is 2x of dragons or more
+    return true
+  } else {
+    return false
+  }
+}
