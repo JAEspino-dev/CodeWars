@@ -1,0 +1,8 @@
+function isDivisible(n, x, y) {
+  if (n % x === 0 && n % y === 0){ // this checks if number is divisible by 2 other numbers passed in
+    return true
+  } else {
+    console.log('Not divisbile by both numbers') 
+    return false
+  }
+}
