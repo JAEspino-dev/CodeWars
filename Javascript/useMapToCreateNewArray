@@ -1,0 +1,4 @@
+function maps(x){
+  const newArray = x.map(integer => integer * 2) //Use this when you have an existing array and want to transform every element inside it into something new. It returns a brand new array and leaves the original array completely untouched
+  return newArray
+}
