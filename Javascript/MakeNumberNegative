@@ -1,0 +1,10 @@
+function makeNegative(num) {
+  // Code?
+  if (num > 0){
+    return num * -1
+  } else if (num < 0){ 
+  return num
+  } else if (num === 0){
+    return num * -1 // needed to add this, it was giving me a +0 error, not sure how 0 can have a positive or negative value?
+  }
+}
