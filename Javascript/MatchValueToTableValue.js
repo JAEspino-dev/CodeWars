@@ -260,7 +260,7 @@ function getChar(c) {
     } else if (c === 127) {
         return 'DEL'
     } else {
-        return 'Not a CharValue'
+        return 'Not a CharValue' 
     }
 }
 
