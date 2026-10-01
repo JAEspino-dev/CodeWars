@@ -5,5 +5,5 @@ function positiveSum(arr) {
       positiveTotal += number // add to positiveTotal value
     }
   }
-  return positiveTotal // return total of positive numbers
+  return positiveTotal //  return total of positive numbers
 }
