@@ -1,0 +1,21 @@
+function duplicateElements(m, n) {
+  console.log('this is array m: '+ m)
+  console.log('this is array n: '+ n)
+  
+  // edge case - if either of the array are empty, return false
+  if(m.length === 0 || n.length === 0){
+    return false
+  }
+  // m['d','w']
+  // n['c','d']
+  let trueCount = 0
+  m.forEach(element => {
+    if(n.indexOf(element) >= 0) {
+      trueCount++
+      return true
+      }
+    }) 
+if(trueCount >0 ){
+  return true
+}return false
+  }
