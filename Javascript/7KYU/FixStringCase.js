@@ -19,6 +19,7 @@ function solve(s){
     console.log(s)
   if(lowerCaseCounter >= upperCaseCounter){
     return s.toLowerCase()
+  
   } 
   else if (lowerCaseCounter < upperCaseCounter){
     return s.toUpperCase()
