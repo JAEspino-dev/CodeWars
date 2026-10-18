@@ -1,0 +1,11 @@
+function reverseList(list) {
+// take in an array and print in reverse
+// returns a new array in reverse
+// example: ['car', 'dog'] would return ['dog', 'car']
+  // create new variable to store array
+  let reversedArray
+  // do something to reverse array
+  reversedArray = list.reverse()
+  // return new array
+  return reversedArray
+}
