@@ -13,3 +13,4 @@ function doubleChar(str) {
   console.log(updatedArray)
   let newString = updatedArray.join('')
   return newString
+}
